@@ -1,4 +1,4 @@
-class YourTool < Formula
+class pkcli < Formula
   desc "Nothing serious here!"
   homepage "https://github.com/phanithken/pkcli"
   url "https://github.com/phanithken/pkcli/releases/download/v0.0.1/pkcli-mac.tar.gz"
