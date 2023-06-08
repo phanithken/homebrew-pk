@@ -1,16 +1,16 @@
 class Pkcli < Formula
   desc "Nothing serious here!"
   homepage "https://github.com/phanithken/pkcli"
-  url "https://github.com/phanithken/pkcli/releases/download/1.0.3/pkcli.tar.gz"
-  sha256 "9b53c02b2f115122de53d31c07382d209ab4417e5c3b3ba836449321896e74c0"
+  url "https://github.com/phanithken/pkcli/releases/download/1.0.3/pk.tar.gz"
+  sha256 "eaea62b9462047b6b18ba51f62907d79445be4990cad4711b9af248549312e8e"
   version "1.0.3"
   license "MIT"
 
   def install
-    bin.install "pkcli"
+    bin.install "pk"
   end
 
   test do
-    system "#{bin}/pkcli", "--version"
+    system "#{bin}/pk", "--version"
   end
 end
