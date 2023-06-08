@@ -1,9 +1,9 @@
 class Pk < Formula
   desc "Nothing serious here!"
   homepage "https://github.com/phanithken/pk"
-  url "https://github.com/phanithken/pk/releases/download/1.0.3/pk.tar.gz"
+  url "https://github.com/phanithken/pk/releases/download/1.0.0/pk.tar.gz"
   sha256 "eaea62b9462047b6b18ba51f62907d79445be4990cad4711b9af248549312e8e"
-  version "1.0.3"
+  version "1.0.0"
   license "MIT"
 
   def install
